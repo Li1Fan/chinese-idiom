@@ -1,5 +1,5 @@
 # chinese-idiom
-中文成语数据库、汉语成语数据库，共计收录48766个成语。
+中文成语数据库、汉语成语数据库，共计收录50920个成语。
 
 本数据库收集自网络，初衷是在自己的机器人加入“成语接龙”游戏，因[已有数据库](https://github.com/pwxcoo/chinese-xinhua)不全，所以自己重新收集。本项目仅作为学习使用，特此声明，如有侵权，将及时删除。
 
@@ -13,7 +13,7 @@
 ├── LICENSE
 ├── README.md
 └── scripts
-    ├── crawling.py
+    ├── crawl
     ├── csv2db.py
     ├── db2csv.py
     └── db2json.py
