@@ -1,3 +1,7 @@
+"""
+成语爬虫
+"""
+
 import csv
 import threading
 from concurrent.futures import ThreadPoolExecutor

@@ -1,5 +1,5 @@
 """
-常用成语爬虫，共计50页，每页60个成语，共计3000个成语
+常用成语爬虫
 """
 
 import sqlite3
@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 
 class IdiomScraper:
-    def __init__(self, db_name='idiom_com.db'):
+    def __init__(self, db_name='com_idiom.db'):
         self.db_name = db_name
         self.connection = None
         self.cursor = None
